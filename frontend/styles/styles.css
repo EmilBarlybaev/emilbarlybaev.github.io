@@ -1,0 +1,46 @@
+h1 {
+    color: #010326;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+}
+
+p, li {
+    color: #010326;
+    font-size: 20px;
+}
+
+html {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    background: #07B0F2;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F2B138;
+    padding: 20px 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+header {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+
+button {
+    display: block;
+    margin: 0 auto;
+}
+
+.paginator {
+    display: flex;
+}
