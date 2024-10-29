@@ -222,3 +222,4 @@ pip-selfcheck.json
 
 .gitconfig/
 .git/
+.DS_Store
