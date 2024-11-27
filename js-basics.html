@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Basics</title>
+  </head>
+  <header>
+    <nav>
+        <a href="index.html">Главная страница</a>
+        <a href="html-practice.html">Вторая страница</a>
+        <a href="blog.html">Блог</a>
+        <a href="html-basics.html">HTML-basics</a>
+        <a href="js-basics.html">js-basics</a>
+    </nav>
+</header>
+  <body>
+    <button class="click">Click me</button>
+    <button class="click">Click me2</button>
+    <button class="click">Click me3</button>
+
+
+    <h2>Number guessing game</h2>
+
+    <p>Угадай случайное число от 1 до 100. У тебя 10 попыток</p>
+
+    <div class="form">
+      <label for="guessField">Введи число: </label>
+      <input type="number" min="1" max="100" required id="guessField" class="guessField">
+      <input type="submit" value="Ввод" class="guessSubmit">
+    </div>
+
+    <div class="resultParas">
+      <p class="guesses"></p>
+      <p class="lastResult"></p>
+      <p class="lowOrHi"></p>
+    </div>
+
+    <div class="correct-register">
+      <h2>Поменять регистр текста</h2>
+      <p>Чтобы поменять регистр текста, сделай:</p>
+      <ol>
+        <li>Введи текст</li>
+        <li>Выбери на какой регистр поменять</li>
+        <li>Нажми "Поменять регистр"</li>
+      </ol>
+      <textarea placeholder="Введи текст, в котором хочем поменять регистр" cols="50" rows="10" class="register-text-input" required></textarea>
+      <div>
+        <div>
+          <input type="radio" name="register-type" id="toUpper" required>
+          <label>Прописные в заглавные а->А</label>
+        </div>
+        <div>
+          <input type="radio" name="register-type" id="toLower">
+          <label>Заглавные в прописные А->а</label>
+        </div>
+      </div>
+      <input type="submit" value="Поменять регистр" class="register-submit">
+    </div>
+
+    <script src="script/js-basics.js"></script>
+
+  </body>
+</html>
